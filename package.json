@@ -1,0 +1,16 @@
+{
+  "author": "James Milne (milne.james@gmail.com)",
+  "license": "MIT",
+  "name": "pgc_frontend_manager",
+  "version": "1.0.0",
+  "description": "Polyglot v2 Swarm Frontend Manager",
+  "main": "frontend_manager.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UniversalDevicesInc/pgc_frontend_manager.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.387.0"
+  }
+}
