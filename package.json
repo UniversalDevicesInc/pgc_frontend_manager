@@ -2,11 +2,11 @@
   "author": "James Milne (milne.james@gmail.com)",
   "license": "MIT",
   "name": "pgc_frontend_manager",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Polyglot v2 Swarm Frontend Manager",
   "main": "frontend_manager.js",
   "scripts": {
-    "//postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
