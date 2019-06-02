@@ -170,7 +170,9 @@ async function addNodeServer(cmd, fullMsg) {
       version: data.ns.version,
       isyVersion: data.isy.isyData.firmware,
       oauth: data.ns.oauth || {},
-      ingressRequired: data.ns.ingressRequired || false
+      ingressRequired: data.ns.ingressRequired || false,
+      tcpIngress: data.ns.tcpIngress || false,
+      httpsIngress: data.ns.httpsIngress || false
     }
   }
   return mqttSend(`${process.env.STAGE}/workers`, req, fullMsg)
